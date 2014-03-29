@@ -1,4 +1,4 @@
-package org.sky.x.test;
+package org.sky.x;
 
 public class TestStackOverFlow {
 

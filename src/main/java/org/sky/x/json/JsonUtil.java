@@ -1,4 +1,4 @@
-package org.sky.x;
+package org.sky.x.json;
 
 import java.io.IOException;
 import java.text.DateFormat;

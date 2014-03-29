@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import org.sky.x.StrUtil;
+import org.sky.x.string.StrUtil;
 
 public class DateUtil {
 	

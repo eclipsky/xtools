@@ -1,4 +1,4 @@
-package org.sky.x.test;
+package org.sky.x;
 
 import java.util.Date;
 import java.util.HashMap;

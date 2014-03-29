@@ -1,4 +1,4 @@
-package org.sky.x.test;
+package org.sky.x;
 
 import java.util.Collections;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package org.sky.x;
+package org.sky.x.string;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

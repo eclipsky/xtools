@@ -1,4 +1,4 @@
-package org.sky.x.test;
+package org.sky.x;
 
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
