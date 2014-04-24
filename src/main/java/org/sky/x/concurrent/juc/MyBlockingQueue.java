@@ -1,4 +1,4 @@
-package org.sky.x.concurrent.BlockingQueue;
+package org.sky.x.concurrent.juc;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;

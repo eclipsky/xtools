@@ -1,4 +1,4 @@
-package org.sky.x.concurrent.ReentrantLock;
+package org.sky.x.concurrent.juc;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
