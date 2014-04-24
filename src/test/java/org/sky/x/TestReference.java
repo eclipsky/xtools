@@ -2,7 +2,7 @@ package org.sky.x;
 
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
-import org.junit.Assert;
+//import org.junit.Assert;
 
 public class TestReference {
 
@@ -17,7 +17,7 @@ public class TestReference {
 		Object strongReference = referent;
 		referent = null;
 		System.gc();
-		Assert.assertNotNull(strongReference);
+//		Assert.assertNotNull(strongReference);
 		System.out.println("strongReference="+strongReference);
 	}
     
@@ -26,7 +26,7 @@ public class TestReference {
     	SoftReference<String> softreference = new SoftReference<String>(str);
     	str=null;
     	System.gc();
-    	Assert.assertNotNull(softreference.get());
+//    	Assert.assertNotNull(softreference.get());
 		System.out.println("softreference="+softreference);
 	}
     
@@ -35,7 +35,7 @@ public class TestReference {
     	WeakReference<String> weakReference = new WeakReference<String>(str);
     	str=null;
     	System.gc();
-    	Assert.assertNull(weakReference.get());
+//    	Assert.assertNull(weakReference.get());
     	System.out.println("weakReference="+weakReference);
     }
     

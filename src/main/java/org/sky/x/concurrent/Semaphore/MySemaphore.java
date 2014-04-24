@@ -1,4 +1,4 @@
-package org.sky.x.concurrent.test.Semaphore;
+package org.sky.x.concurrent.Semaphore;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

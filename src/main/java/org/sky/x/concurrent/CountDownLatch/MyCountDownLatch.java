@@ -1,4 +1,4 @@
-package org.sky.x.concurrent.test.CountDownLatch;
+package org.sky.x.concurrent.CountDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

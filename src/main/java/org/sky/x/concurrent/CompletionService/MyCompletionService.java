@@ -1,4 +1,4 @@
-package org.sky.x.concurrent.test.CompletionService;
+package org.sky.x.concurrent.CompletionService;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletionService;

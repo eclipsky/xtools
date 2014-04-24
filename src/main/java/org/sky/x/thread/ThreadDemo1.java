@@ -2,12 +2,24 @@ package org.sky.x.thread;
 
 class HelloThread implements Runnable {
 
-	private int count = 10;
+	private int count = 200;
 	
-	public void run() {
-		while (count >= 0) {
+	public synchronized void  decrease() throws Throwable{
+//		synchronized(this) {
 			System.out.println(Thread.currentThread().getName() + ":"+ count);
 			count--;
+//		}
+//		Thread.sleep(5);
+	}
+	
+	public void run() {
+		try {
+			while(count > 0){
+				decrease();
+			}
+		} catch (Throwable e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 }

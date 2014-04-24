@@ -1,4 +1,4 @@
-package org.sky.x.concurrent.test.ReentrantLock;
+package org.sky.x.concurrent.ReentrantLock;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
