@@ -1,4 +1,4 @@
-package org.sky.x.thread;
+package org.sky.x.concurrent.thread;
 
 class Student extends Thread {
 
@@ -9,9 +9,9 @@ class Student extends Thread {
 	public void run() {
 		Thread currentThread = Thread.currentThread();
 		System.out.println(currentThread.getState());
-		System.out.println((currentThread.isInterrupted() ? "ÖÐ¶Ï" : "Î´ÖÐ¶Ï"));
+		System.out.println((currentThread.isInterrupted() ? "ï¿½Ð¶ï¿½" : "Î´ï¿½Ð¶ï¿½"));
 		currentThread.interrupt();
-		System.out.println((currentThread.isInterrupted() ? "ÖÐ¶Ï" : "Î´ÖÐ¶Ï"));
+		System.out.println((currentThread.isInterrupted() ? "ï¿½Ð¶ï¿½" : "Î´ï¿½Ð¶ï¿½"));
 //		try {
 //			Thread.sleep(3000);
 //		} catch (InterruptedException e1) {
@@ -19,11 +19,11 @@ class Student extends Thread {
 //			e1.printStackTrace();
 //		}
 		System.out.println(currentThread.getState());
-		System.out.println((currentThread.isInterrupted() ? "ÖÐ¶Ï" : "Î´ÖÐ¶Ï"));
+		System.out.println((currentThread.isInterrupted() ? "ï¿½Ð¶ï¿½" : "Î´ï¿½Ð¶ï¿½"));
 //		for (int i = 0; i < 5; i++) {
 //			Thread currentThread = Thread.currentThread();
 //			System.out.println(i + ":"
-//					+ (currentThread.isInterrupted() ? "ÖÐ¶Ï" : "Î´ÖÐ¶Ï"));
+//					+ (currentThread.isInterrupted() ? "ï¿½Ð¶ï¿½" : "Î´ï¿½Ð¶ï¿½"));
 //			System.out.println("student " + this.getName() + ":\t" + i);
 //		}
 	}
@@ -45,7 +45,7 @@ class Teacher implements Runnable {
 }
 
 /**
- * @author xieming 2013-10-17 ÉÏÎç01:44:21
+ * @author xieming 2013-10-17 ï¿½ï¿½ï¿½ï¿½01:44:21
  */
 public class ThreadDemo {
 	public static void main(String[] args) throws InterruptedException{

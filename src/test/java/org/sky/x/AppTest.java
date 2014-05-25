@@ -9,14 +9,21 @@ public class AppTest{
 	
 	@Test
 	public void getStart(){
-		Hello hello = new Hello();
-		Thread t1 = new Thread(hello);
-		t1.setName("线程1");
-		Thread t2 = new Thread(hello);
-		t2.setName("线程2");
-		
-		t1.start();
-		t2.start();
+		System.out.println(System.currentTimeMillis());
+		System.out.println(System.currentTimeMillis());
+//		System.out.println(Thread.currentThread().getName());
+//		Thread.currentThread().setName("main线程改名为主线程");
+//		System.out.println(Thread.currentThread().getName());
+//		Hello hello = new Hello();
+//		Thread t1 = new Thread(hello);
+//		t1.setName("线程1");
+//		Thread t2 = new Thread(hello);
+//		t2.setName("线程2");
+//		for(int i = 0;i<10;i++){
+//			System.out.println(Thread.currentThread().getName()+":"+i);
+//		}
+//		t1.start();
+//		t2.start();
 	}
 	
 }

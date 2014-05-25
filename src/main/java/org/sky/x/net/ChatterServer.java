@@ -6,7 +6,7 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 
 /**
- * @author xieming 2013-10-18 ÉÏÎç12:21:25
+ * @author xieming 2013-10-18 ä¸Šåˆ12:21:25
  */
 public class ChatterServer {
 	public static final int port = 1723;

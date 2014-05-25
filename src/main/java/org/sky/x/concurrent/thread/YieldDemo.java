@@ -1,7 +1,7 @@
-package org.sky.x.thread;
+package org.sky.x.concurrent.thread;
 
 /**
- * @author xieming  2013-10-26 ÏÂÎç09:28:09
+ * @author xieming  2013-10-26 ï¿½ï¿½ï¿½ï¿½09:28:09
  */
 public class YieldDemo {
 	public static void main(String[] args){
@@ -19,7 +19,7 @@ class YieldThread01 extends Thread{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println("Ïß³Ì1µÚ"+i+"´ÎÖ´ÐÐ");
+			System.out.println("ï¿½ß³ï¿½1ï¿½ï¿½"+i+"ï¿½ï¿½Ö´ï¿½ï¿½");
 		}
 	}
 } 
@@ -33,8 +33,8 @@ class YieldThread02 extends Thread{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println("Ïß³Ì2µÚ"+i+"´ÎÖ´ÐÐ");
-			Thread.yield();//Ö»ÊÇ·ÅÆúcpu£¬µ«ÊÇÈÔ¿ÉÄÜÔÙ´Î±»Ñ¡ÖÐ¼ÓÈëÔËÐÐ
+			System.out.println("ï¿½ß³ï¿½2ï¿½ï¿½"+i+"ï¿½ï¿½Ö´ï¿½ï¿½");
+			Thread.yield();//Ö»ï¿½Ç·ï¿½ï¿½ï¿½cpuï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ï¿½Ù´Î±ï¿½Ñ¡ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		}
 	}
 } 

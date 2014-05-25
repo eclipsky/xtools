@@ -1,7 +1,7 @@
-package org.sky.x.thread;
+package org.sky.x.concurrent.thread;
 
 /**
- * @author xieming  2013-10-28 ионГ11:36:44
+ * @author xieming  2013-10-28 О©╫О©╫О©╫О©╫11:36:44
  */
 public class Executor {
 

@@ -1,10 +1,11 @@
-package org.sky.x.thread;
+package org.sky.x.concurrent.thread;
 
 public class VolatileTest {
 	
 	public static final int THREAD_COUNT = 20;
 	
 	public static volatile int race = 0;
+	public static volatile int race1 = 0;
 	
 	public static void increace(){
 		race++;

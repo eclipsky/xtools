@@ -1,17 +1,17 @@
-package org.sky.x.thread;
+package org.sky.x.concurrent.thread;
 
 /**
- * @author xieming  2013-10-26 ÏÂÎç05:03:51
+ * @author xieming  2013-10-26 ï¿½ï¿½ï¿½ï¿½05:03:51
  */
 public class WaitDemo {
 	public static void main(String[] args) throws InterruptedException{
 		ThreadB b = new ThreadB();
 		b.start();
 		synchronized(b){
-			System.out.println("Î´¼ÆËã×ÜÊýÎª£º"+b.total);
+			System.out.println("Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½"+b.total);
 			b.wait();
-			System.out.println("ÎÒÄÜÖ´ÐÐÂð£¿");
-			System.out.println("¼ÆËãºó×ÜÊýÎª£º"+b.total);
+			System.out.println("ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½"+b.total);
 		}
 		Thread.sleep(100);
 	}
