@@ -1,4 +1,4 @@
-package org.sky.x.thread;
+package org.sky.x.concurrent.thread;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -10,7 +10,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 /**
- * @author xieming 2013-10-17 ÉÏÎç09:32:56
+ * @author xieming 2013-10-17 ï¿½ï¿½ï¿½ï¿½09:32:56
  */
 public class Bounce {
 	public static void main(String[] args) {
@@ -36,7 +36,7 @@ class BounceFrame extends JFrame {
 	public static final int DELAY = 5;
 
 	/**
-	 * ½çÃæÖ÷¿ò¼Ü£¬±êÌâ£¬´óÐ¡£¬Î»ÖÃµÈ ÉèÖÃ°´Å¥ºÍµã»÷ÊÂ¼þ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü£ï¿½ï¿½ï¿½ï¿½â£¬ï¿½ï¿½Ð¡ï¿½ï¿½Î»ï¿½Ãµï¿½ ï¿½ï¿½ï¿½Ã°ï¿½Å¥ï¿½Íµï¿½ï¿½ï¿½Â¼ï¿½
 	 */
 	public BounceFrame() {
 		setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
@@ -71,7 +71,7 @@ class BounceFrame extends JFrame {
 	}
 
 	/**
-	 * ¼ÓÈëÐ¡Çò£¬¼ûÐÞ¸Äºó°´¶àÏß³Ì´¦Àí
+	 * ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ò£¬¼ï¿½ï¿½Þ¸Äºó°´¶ï¿½ï¿½ß³Ì´ï¿½ï¿½ï¿½
 	 */
 	public void addBall() {
 		Ball ball = new Ball();
@@ -80,12 +80,12 @@ class BounceFrame extends JFrame {
 		Thread t = new Thread(r);
 		t.start();
 		// for(int i=1;i<STEPS;i++){
-		// //Ð¡ÇòÒÆ¶¯
+		// //Ð¡ï¿½ï¿½ï¿½Æ¶ï¿½
 		// ball.move(comp.getBounds());
-		// //½çÃæÖØ»æ
+		// //ï¿½ï¿½ï¿½ï¿½ï¿½Ø»ï¿½
 		// comp.paint(comp.getGraphics());
 		// try {
-		// //ÑÓ³Ù3s
+		// //ï¿½Ó³ï¿½3s
 		// Thread.sleep(DELAY);
 		// } catch (InterruptedException e) {
 		// // TODO Auto-generated catch block

@@ -1,7 +1,7 @@
-package org.sky.x.sort;
+package org.sky.x.algorithm.sort;
 
 /**
- * µÝ¹éÊµÏÖººÅµËþ
+ * ï¿½Ý¹ï¿½Êµï¿½Öºï¿½Åµï¿½ï¿½
  * 
  * @author Administrator
  * 
@@ -16,16 +16,16 @@ public class Hanoi {
 		long begin = System.currentTimeMillis();
 		hanoi(num, 'a', 'b', 'c');
 		long end = System.currentTimeMillis();
-		System.out.println("ÐèÒªÒÆ¶¯´ÎÊý£º" + count+"£¬ºÄÊ±£º"+(end-begin)+"ms");
+		System.out.println("ï¿½ï¿½Òªï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½" + count+"ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½"+(end-begin)+"ms");
 	}
 
 	public static void mov(int n, char from, char to) {
-//		System.out.println("Ô²ÅÌ" + n + "\t´Ó" + from + "µ½" + to);
+//		System.out.println("Ô²ï¿½ï¿½" + n + "\tï¿½ï¿½" + from + "ï¿½ï¿½" + to);
 		count++;
 	}
 
 	/**
-	 * ±íÊ¾n¸öÅÌ×ÓÐèÒª½èÖútmp£¬´Ófromµ½to
+	 * ï¿½ï¿½Ê¾nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½tmpï¿½ï¿½ï¿½ï¿½fromï¿½ï¿½to
 	 * 
 	 * @param n
 	 * @param from

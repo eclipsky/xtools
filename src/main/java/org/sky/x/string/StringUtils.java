@@ -1,7 +1,7 @@
 package org.sky.x.string;
 
 /**
- * @author xieming  2013-10-15 ÏÂÎç04:03:01
+ * @author xieming  2013-10-15 ä¸‹åˆ04:03:01
  */
 public class StringUtils {
 	

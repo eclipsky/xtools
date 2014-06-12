@@ -1,7 +1,7 @@
-package org.sky.x.thread;
+package org.sky.x.concurrent.thread;
 
 /**
- * @author xieming  2013-10-26 ÏÂÎç10:14:18
+ * @author xieming  2013-10-26 ï¿½ï¿½ï¿½ï¿½10:14:18
  */
 public class DaemonDemo {
 	public static void main(String[] args) throws Exception{
@@ -10,7 +10,7 @@ public class DaemonDemo {
 		md.start();
 		for(int i=0;i<10; i++){
 //			Thread.sleep(10);
-			System.out.println("Ïß³Ìmain£º"+i);
+			System.out.println("ï¿½ß³ï¿½mainï¿½ï¿½"+i);
 		}
 	}
 }
@@ -18,7 +18,7 @@ public class DaemonDemo {
 class DaemonThread extends Thread{
 	public void run(){
 		for(int i=0;i<10; i++){
-			System.out.println("Ïß³Ì1£º"+i);
+			System.out.println("ï¿½ß³ï¿½1ï¿½ï¿½"+i);
 		}
 	}
 }

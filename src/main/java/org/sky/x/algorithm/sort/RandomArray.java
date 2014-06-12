@@ -1,4 +1,4 @@
-package org.sky.x.sort;
+package org.sky.x.algorithm.sort;
 
 import java.util.Random;
 

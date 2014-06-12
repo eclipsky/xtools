@@ -3,7 +3,7 @@ package org.sky.x.string;
 import java.util.Date;
 
 /**
- * @author xieming  2013-10-14 ÏÂÎç04:37:49
+ * @author xieming  2013-10-14 ä¸‹åˆ04:37:49
  */
 public class StringDemo {
 	
@@ -73,24 +73,24 @@ public class StringDemo {
 //		System.out.println(date);
 //		System.out.println(abc);
 //		System.out.println(a);
-//		System.out.println(s);//ÎªÊ²Ã´static±äÁ¿¿ÉÒÔ²»
-//        //ÔÚ³ØÖĞºÍ¶ÑÖĞ·Ö±ğ´´½¨String¶ÔÏó"abc",s1Ö¸Ïò¶ÑÖĞ¶ÔÏó 
+//		System.out.println(s);//ä¸ºä»€ä¹ˆstaticå˜é‡å¯ä»¥ä¸
+//        //åœ¨æ± ä¸­å’Œå †ä¸­åˆ†åˆ«åˆ›å»ºStringå¯¹è±¡"abc",s1æŒ‡å‘å †ä¸­å¯¹è±¡ 
 //        String s1 = new String("abc"); 
-//        //s2Ö±½ÓÖ¸Ïò³ØÖĞ¶ÔÏó"abc" 
+//        //s2ç›´æ¥æŒ‡å‘æ± ä¸­å¯¹è±¡"abc" 
 //        String s2 = "abc"; 
-//        //ÔÚ¶ÑÖĞĞÂ´´½¨"abc"¶ÔÏó£¬s3Ö¸Ïò¸Ã¶ÔÏó 
+//        //åœ¨å †ä¸­æ–°åˆ›å»º"abc"å¯¹è±¡ï¼Œs3æŒ‡å‘è¯¥å¯¹è±¡ 
 //        String s3 = new String("abc"); 
-//        //ÔÚ³ØÖĞ´´½¨¶ÔÏó"ab" ºÍ "c"£¬²¢ÇÒs4Ö¸Ïò³ØÖĞ¶ÔÏó"abc" 
+//        //åœ¨æ± ä¸­åˆ›å»ºå¯¹è±¡"ab" å’Œ "c"ï¼Œå¹¶ä¸”s4æŒ‡å‘æ± ä¸­å¯¹è±¡"abc" 
 //        String s4 = "ab" + "c"; 
-//        //cÖ¸Ïò³ØÖĞ¶ÔÏó"c" 
+//        //cæŒ‡å‘æ± ä¸­å¯¹è±¡"c" 
 //        String c = "c"; 
-//        //ÔÚ¶ÑÖĞ´´½¨ĞÂµÄ¶ÔÏó"abc"£¬²¢ÇÒs5Ö¸Ïò¸Ã¶ÔÏó 
+//        //åœ¨å †ä¸­åˆ›å»ºæ–°çš„å¯¹è±¡"abc"ï¼Œå¹¶ä¸”s5æŒ‡å‘è¯¥å¯¹è±¡ 
 //        String s5 = "ab" + c; 
 //
 //        String s6 = "ab".concat("c"); 
 //        String s7 = "ab".concat(c); 
 //
-//        System.out.println("------------Êµ´®-----------"); 
+//        System.out.println("------------å®ä¸²-----------"); 
 //        System.out.println(s1 == s2); //false 
 //        System.out.println(s1 == s3); //false 
 //        System.out.println(s2 == s3); //false 
@@ -109,7 +109,7 @@ public class StringDemo {
 //        String b8 = "  "; 
 //        String b9 = "    ".trim(); 
 //
-//        System.out.println("------------¿Õ´®-----------"); 
+//        System.out.println("------------ç©ºä¸²-----------"); 
 //        System.out.println(b1 == b2);  //false 
 //        System.out.println(b1 == b3);  //false 
 //        System.out.println(b2 == b3);  //false 

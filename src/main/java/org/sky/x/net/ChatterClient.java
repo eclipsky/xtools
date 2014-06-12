@@ -8,7 +8,7 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 
 /**
- * @author xieming  2013-10-18 ÉÏÎç12:47:18
+ * @author xieming  2013-10-18 ä¸Šåˆ12:47:18
  */
 public class ChatterClient extends Thread{
 	private byte[] buf = new byte[1024];
@@ -35,9 +35,9 @@ public class ChatterClient extends Thread{
 	public void run(){
 		String toSent = "Client#" + id;
 		try {
-			//·¢ËÍÊı¾İ°ü
+			//å‘é€æ•°æ®åŒ…
 			socket.send(DataConvert.toDatagram(toSent, serverAddress, ChatterServer.port));
-			//½ÓÊÜÊı¾İ±¨
+			//æ¥å—æ•°æ®æŠ¥
 			socket.receive(data);
 			System.out.println(DataConvert.toString(data));
 		} catch (IOException e) {

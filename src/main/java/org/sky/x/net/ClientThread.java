@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.*;
 
 /**
- * @author xieming 2013-10-17 ÏÂÎç08:10:01
+ * @author xieming 2013-10-17 ä¸‹åˆ08:10:01
  */
 public class ClientThread extends Thread {
 	private BufferedReader in;
