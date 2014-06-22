@@ -5,7 +5,7 @@ package org.sky.x.data.array;
  * 2014年6月12日 下午11:05:00
  */
 
-public class UnsortedArray extends CommonArray{
+public class UnsortedArray extends ArrayI{
 	
 	public UnsortedArray(int length) {
 		super(length);

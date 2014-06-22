@@ -5,7 +5,7 @@ package org.sky.x.data.array;
  * 2014年6月12日 下午11:06:02
  */
 
-public class SortedArray extends CommonArray{
+public class SortedArray extends ArrayI{
 
 	public SortedArray(int length) {
 		super(length);
@@ -148,25 +148,19 @@ public class SortedArray extends CommonArray{
 	
 	@Override
 	public void noDup(){
-		/*1.遍历数组，标记重复记录，晚出现的作为待删除项*/
-		for(int i=0;i<array.length;i++){
-			if(array[i]==-1)break;
-			for(int j=i+1;j<array.length;j++){
-				if(array[j]==array[i]){
-					array[j]=-1;
-				}
-			}
-		}
-		display();
-		int fill = 0;
-		/*2.遍历数组，从左到右填充*/
-		for(int i=0;i<array.length;i++){
-			if(array[i]!=-1){
+		/*1.遍历数组，从左到右判断填充，左右比较是否相等*/
+		int fill=0;
+		for(int i=1;i<array.length;i++){
+			if(array[i]!=array[fill]){
+				fill++;
 				if(fill!=i){
 					array[fill]=array[i];
 				}
-				fill++;
 			}
+		}
+		System.out.println("去重后数为:"+(fill+1));
+		while(fill<array.length-1){
+			array[++fill]=-1;
 		}
 		
 	}

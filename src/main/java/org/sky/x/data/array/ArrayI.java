@@ -7,13 +7,13 @@ import org.apache.commons.lang.math.RandomUtils;
  * 2014年6月12日 下午11:03:39
  */
 
-public abstract class CommonArray{
+public abstract class ArrayI{
 
 	protected int[] array;
 	
 	protected int nEles;
 
-	public CommonArray(int length){
+	public ArrayI(int length){
 		array = new int[length];
 		nEles = 0;
 	}
