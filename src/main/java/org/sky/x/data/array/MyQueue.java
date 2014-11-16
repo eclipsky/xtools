@@ -25,13 +25,11 @@ public class MyQueue implements QueueI{
 			rear = -1;
 		}
 		array[++rear] = ele;
-		System.out.println("insert:"+ele);
 		nEles++;
 	}
 	
 	public int remove(){
 		int tmp = array[front++];
-		System.out.println("remove:"+tmp);
 		if(front==max){
 			front=0;
 		}

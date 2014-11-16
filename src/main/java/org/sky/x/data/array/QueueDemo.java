@@ -12,12 +12,15 @@ public class QueueDemo {
 	
 	@Test
 	public void testQueue(){
-		QueueI queue = new MyQueue(5);
+//		QueueI queue = new MyQueue(5);
+		QueueI queue = new PriorityQueue(5);
 		while(!queue.isFull()){
-			queue.insert(RandomUtils.nextInt()%50);
+			int insert = RandomUtils.nextInt()%50;
+			System.out.println("insert:"+insert);
+			queue.insert(insert);
 		}
 		while(!queue.isEmpty()){
-			queue.remove();
+			System.out.println("remove:"+queue.remove());
 		}
 	}
 		
